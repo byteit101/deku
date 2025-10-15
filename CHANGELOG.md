@@ -2,6 +2,25 @@
 
 ## [Unreleased]
 
+## [0.19.2](https://github.com/byteit101/deku/compare/deku-v0.19.1...deku-v0.19.2) - 2025-10-15
+
+### Added
+
+- feature="bits" on the doctest
+
+### Other
+
+- Merge branch 'master' into master
+- Merge branch 'master' into master
+- Update src/lib.rs
+- Fix #571: Add more documentation about ctx in the first example
+- hashset: tests: Handle arbitrary iteration order of HashSet ([#573](https://github.com/byteit101/deku/pull/573))
+- add map attribute to list ([#570](https://github.com/byteit101/deku/pull/570))
+- Return empty vec for read_to_end ZST ([#566](https://github.com/byteit101/deku/pull/566))
+- Bugfix/signed values in bitfields ([#565](https://github.com/byteit101/deku/pull/565))
+- Fix writer dropping count of bytes written for unaligned writes ([#561](https://github.com/byteit101/deku/pull/561))
+- Fix CString byte length reading ([#563](https://github.com/byteit101/deku/pull/563))
+
 ## Added
 
 - The `alloc` feature, allowing use in environments lacking a heap [#582](https://github.com/sharksforarms/deku/pull/582)
